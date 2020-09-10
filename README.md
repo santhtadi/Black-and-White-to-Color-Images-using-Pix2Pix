@@ -6,9 +6,10 @@ Black and White to Color Images using Pix2Pix (GAN - Generative Adversarial Netw
 This notebook is executed in colab and is a fun experiment on using GAN for converting images of people from Gray Scale to RGB
 
 # Algorithm
+
 I used the Pix2Pix Network published at https://arxiv.org/abs/1611.07004 for this experiment
 
-Most of the notebook is based heavily on the Pix2Pix tutorial and the model architecture provided my Tensorflow.
+Most of the notebook is based heavily on the Pix2Pix tutorial and the model architecture provided by Tensorflow.
 
 More details can be found at https://www.tensorflow.org/tutorials/generative/pix2pix
 
@@ -57,5 +58,5 @@ for i, fp in tqdm(enumerate(all_images[:500])):
 
 # Results
 Some of the results from the generated model:
-
+![Result Image](https://github.com/santhtadi/Black-and-White-to-Color-Images-using-Pix2Pix/blob/master/new_download.png?raw=true)
 
