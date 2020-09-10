@@ -58,5 +58,8 @@ for i, fp in tqdm(enumerate(all_images[:500])):
 
 # Results
 Some of the results from the generated model:
+
+Note: This image is not in the dataset
+
 ![Result Image](https://github.com/santhtadi/Black-and-White-to-Color-Images-using-Pix2Pix/blob/master/new_download.png?raw=true)
 
